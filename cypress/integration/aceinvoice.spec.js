@@ -1,13 +1,6 @@
 describe("visit aceinvoice", function(){
 
 	beforeEach(() => {
-    // before each test, we can automatically preserve the
-    // 'session_id' and 'remember_token' cookies. this means they
-    // will not be cleared before the NEXT test starts.
-    //
-    // the name of your cookies will likely be different
-    // this is an example
-
 	    Cypress.Cookies.preserveOnce('_aceinvoice_session')
   })
 
