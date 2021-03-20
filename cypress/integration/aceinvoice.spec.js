@@ -14,7 +14,7 @@ describe("visit aceinvoice", function(){
 	})
 
 	it("Enter Email", function(){
-		cy.get("[data-test-id=signup-email]").type("sbgps49am079-march-19-2021-2142@example.com")
+		cy.get("[data-test-id=signup-email]").type("shubham00079-march-19-2021-2142@example.com")
 	} )
 
 	it("Click Submit", function(){
@@ -22,7 +22,7 @@ describe("visit aceinvoice", function(){
 	} )
 
 	it("Enter Password", function(){
-		cy.get("[data-test-id=signup-password]").type("qwerssqsssassssertyqwerty")
+		cy.get("[data-test-id=signup-password]").type("welcome1234!")
 	} )
 
 	it("Click Continue", function(){
